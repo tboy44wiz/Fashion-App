@@ -1,0 +1,161 @@
+@import "src/assets/styles/GlobalVariables";
+
+.MeetTheOwner_Comp {
+  overflow: hidden;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+
+  .background__image {
+    height: $fullHeight;
+    width: $fullWidth;
+    object-fit: fill;
+    object-position: center;
+
+    position: absolute;
+    top: 5px;
+    left: 0;
+    transform: translate(0, -10px);
+  };
+
+  .MeetTheOwner_Comp__wrapper {
+    height: $fullHeight;
+    width: $fullWidth;
+    padding: 120px 0;
+    position: relative;
+    &::after {
+      content: "";
+      height: $fullHeight;
+      width: $fullWidth;
+      background: #0a2a43;
+      mix-blend-mode: color;
+      z-index: 10;
+
+      position: absolute;
+      top: 0;
+      left: 0;
+    };
+  };
+
+  .owner-image__wrapper {
+    height: $fullHeight;
+    width: $fullWidth;
+
+    display: flex;
+    justify-content: center;
+
+    .owner__image {
+      height: 800px;
+      width: auto;
+      z-index: 100;
+    };
+  };
+
+  .owner-info__wrapper {
+    height: $fullHeight;
+    width: $fullWidth;
+    z-index: 100;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+
+    .owner__info {
+      width: 50%;
+      min-width: 460px;
+      color: white;
+      font-size: 1.2rem;
+      text-align: justify;
+      padding: 100px 60px;
+      background: #ff814e;
+
+      position: absolute;
+      left: -10%;
+      top: 6%;
+      transform: translate(-10%, 12%);
+
+      h2 {
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+        font-size: 2.8rem;
+      }
+    };
+  }
+
+};
+
+
+
+// Large devices (desktops, 1024px and up)
+@media (max-width: 1024px) {
+  .background__image {
+    height: $fullHeight;
+    width: $fullWidth;
+    object-fit: fill;
+    object-position: center;
+
+    position: absolute;
+    top: -55px;
+    left: 0;
+    transform: translate(0, -10px);
+  };
+}
+
+// Large devices (desktops, 992px and up)
+@media (max-width: 991px) {
+  .MeetTheOwner_Comp {
+    .MeetTheOwner_Comp__wrapper {
+      height: $fullHeight;
+      width: $fullWidth;
+      padding: 120px 0 60px 0;
+    };
+
+    .owner-info__wrapper {
+      .owner__info {
+        position: relative !important;
+        top: -40% !important;
+        left: 5% !important;
+        transform: translate(-7.5%, 12%);
+      };
+    }
+  }
+}
+// Large devices (desktops, 767px and up)
+@media (max-width: 767px) {
+  .MeetTheOwner_Comp {
+    .MeetTheOwner_Comp__wrapper {
+      height: $fullHeight;
+      width: $fullWidth;
+      padding: 100px 0 10px 0;
+    };
+    .owner-image__wrapper {
+      .owner__image {
+        height: 560px;
+        width: auto;
+      };
+    };
+
+    .owner-info__wrapper {
+      .owner__info {
+        width: 50%;
+        min-width: 340px;
+        font-size: 1rem;
+        padding: 60px 40px;
+
+        position: absolute;
+        left: -9%;
+        top: 5%;
+        transform: translate(-8%, 12%);
+
+        h2 {
+          font-family: 'Yanone Kaffeesatz', sans-serif;
+          font-size: 2.1rem;
+        }
+      };
+    }
+  }
+}

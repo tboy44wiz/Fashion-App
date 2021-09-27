@@ -1,0 +1,16 @@
+@import "src/assets/styles/GlobalVariables";
+
+.MapLocation_Comp {
+  padding-bottom: 100px;
+
+  .contact-map__wrapper {
+    height: 500px;
+    width: $fullWidth;
+
+    .contact-map__iframe {
+      height: $fullHeight;
+      width: $fullWidth;
+      background: #e2e2e2;
+    };
+  };
+};

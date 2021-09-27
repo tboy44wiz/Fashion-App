@@ -1,0 +1,110 @@
+@import "src/assets/styles/GlobalVariables";
+
+.Carousel_Comp {
+  height: $deviceHeight;
+  width: $fullWidth;
+  background: #100601;
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .carousel__image {
+    margin: 0 auto;
+    display: block;
+  };
+
+  h1 {
+    color: #FFFFFF;
+    font-family: "P22 Marcel W01 Script Pro", sans-serif;
+    font-size: 6rem;
+    font-weight: 600;
+    text-align: center;
+    &::before, &::after {
+      content: "";
+      height: 2px;
+      width: 80px;
+      margin: 0 15px;
+      background: $colorOrange;
+      display: inline-block;
+    };
+  };
+
+
+  /*///////////////// TYPEWRITER TEXT WRAPPER /////////////////*/
+  .typewriter__text {
+    color: #FFFFFF;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    margin-right: 5px;
+    font-size: 3rem;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+
+    .typewriterText {
+      max-width: 8ch;
+      margin-left: 15px;
+      padding-right: 5px;
+      border-right: 1px solid white;
+      white-space: nowrap;
+      overflow: hidden;
+
+      -webkit-animation: typewriterText 4s steps(35, end) infinite alternate, animatedCursor 1s steps(35, end) infinite alternate;
+      -moz-animation: typewriterText 4s steps(35, end) infinite alternate, animatedCursor 1s steps(35, end) infinite alternate;
+      -o-animation: typewriterText 4s steps(35, end) infinite alternate, animatedCursor 1s steps(35, end) infinite alternate;
+      animation: typewriterText 4s steps(35, end) infinite alternate, animatedCursor 1s steps(35, end) infinite alternate;
+    };
+  };
+
+  @-webkit-keyframes typewriterText {
+    from { max-width: 0 }
+    to { max-width: 8ch }
+  }
+  @-moz-keyframes typewriterText {
+    from { max-width: 0 }
+    to { max-width: 8ch }
+  }
+  @-ms-keyframes typewriterText {
+    from { max-width: 0 }
+    to { max-width: 8ch }
+  }
+  @-o-keyframes typewriterText {
+    from { max-width: 0 }
+    to { max-width: 8ch }
+  }
+  @keyframes typewriterText {
+    from {
+      //border-right: 1px solid white;
+      max-width: 0;
+    }
+    to {
+      //border-right: 1px solid white;
+      to { max-width: 6ch }
+    }
+  }
+
+
+  @-webkit-keyframes animatedCursor {
+    0% { border-right: 1px solid white }
+    50% { border-right: transparent }
+  }
+  @-moz-keyframes animatedCursor {
+    0% { border-right: 1px solid white }
+    50% { border-right: transparent }
+  }
+  @-ms-keyframes animatedCursor {
+    0% { border-right: 1px solid white }
+    50% { border-right: transparent }
+  }
+  @-o-keyframes animatedCursor {
+    0% { border-right: 1px solid white }
+    50% { border-right: transparent }
+  }
+  @keyframes animatedCursor {
+    0% { border-right: 1px solid white }
+    50% { border-right: transparent }
+  }
+};

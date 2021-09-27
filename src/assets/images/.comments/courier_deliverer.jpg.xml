@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comment version="3.0">
+  <caption>Delivery parcel to door</caption>
+  <note>beautiful customer signing for delivery from courier</note>
+  <place/>
+  <categories>
+    <category value="character"/>
+    <category value="person"/>
+    <category value="worker"/>
+    <category value="express"/>
+    <category value="cardboard"/>
+    <category value="background"/>
+    <category value="order"/>
+    <category value="pack"/>
+    <category value="male"/>
+    <category value="receive"/>
+    <category value="graphic"/>
+    <category value="figure"/>
+    <category value="holding"/>
+    <category value="deliveryman"/>
+    <category value="young"/>
+    <category value="guy"/>
+    <category value="cheerful"/>
+    <category value="woman"/>
+    <category value="female"/>
+    <category value="postage"/>
+    <category value="object"/>
+    <category value="closed"/>
+    <category value="girl"/>
+    <category value="client"/>
+    <category value="give"/>
+    <category value="postal"/>
+    <category value="courier"/>
+    <category value="delivery"/>
+    <category value="service"/>
+    <category value="box"/>
+    <category value="parcel"/>
+    <category value="package"/>
+    <category value="business"/>
+    <category value="vector"/>
+    <category value="man"/>
+    <category value="door"/>
+    <category value="illustration"/>
+    <category value="flat"/>
+    <category value="home"/>
+    <category value="deliver"/>
+    <category value="concept"/>
+    <category value="container"/>
+    <category value="post"/>
+    <category value="design"/>
+    <category value="transportation"/>
+    <category value="cartoon"/>
+    <category value="work"/>
+    <category value="logistic"/>
+    <category value="fast"/>
+    <category value="job"/>
+  </categories>
+</comment>

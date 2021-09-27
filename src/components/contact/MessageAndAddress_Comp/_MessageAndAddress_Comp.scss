@@ -1,0 +1,67 @@
+@import "src/assets/styles/GlobalVariables";
+
+.MessageAndAddress_Comp {
+  padding: 120px 0 70px 0;
+
+  .contact__wrapper {
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+  }
+  .contact__title {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 600;
+  };
+
+  .contact__form {
+    input {
+      height: 50px;
+      border: none;
+
+      &:focus {
+        box-shadow: none;
+      };
+    };
+
+    textarea {
+      height: 150px;
+      resize: none;
+      border: none;
+
+      &:focus {
+        box-shadow: none;
+      };
+    };
+
+
+    .send_button {
+      width: $fullWidth;
+      margin-top: 30px;
+      padding: 10px 0;
+      border: 1px solid $colorOrange;
+      background: $colorOrange;
+      border-radius: 50px;
+      color: #FFFFFF;
+      font-family: 'Yanone Kaffeesatz', sans-serif;
+      font-size: 1.2rem;
+      transition: 0.3s ease;
+
+      &:hover {
+        background: none;
+        padding: 10px 0;
+        border: 1px solid $colorOrange;
+        color: $colorOrange;
+      };
+    };
+  };
+
+  .contact-info__wrapper {
+    margin-bottom: 15px;
+  };
+
+  .social-icon__wrapper {
+    a {
+      margin-right: 15px;
+    };
+  };
+};

@@ -1,0 +1,29 @@
+@import "src/assets/styles/GlobalVariables";
+
+.AppBreadCrumb_Comp {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+  url("../../../assets/images/sewing_bg.jpeg") no-repeat center center;
+  background-size: cover;
+  padding: 120px 0 60px 0;
+  color: #FFFFFF;
+  h2 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 3rem;
+    font-weight: 500;
+    display: inline;
+    padding: 7px 20px;
+  };
+
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 0;
+
+    a {
+      color: $linkColor;
+      text-decoration: none;
+      &:hover {
+        color: $linkColorHover;
+      };
+    };
+  };
+};

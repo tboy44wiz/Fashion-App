@@ -1,0 +1,39 @@
+@import "../../../assets/styles/GlobalVariables";
+
+.AppFooter_Comp {
+  background: #2a1401;
+  color: $secondaryColor;
+  padding: 40px 0 0 0;
+
+  .brand__name {
+    font-family: "P22 Marcel W01 Script Pro", sans-serif;
+    font-size: 2.8rem;
+  }
+  h3 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+  };
+
+  a {
+    color: $linkColor;
+    text-decoration: none;
+
+    &:hover {
+      color: $linkColorHover;
+    };
+  };
+
+  .top-footer__wrapper {
+    padding: 40px 0 60px 0;
+  };
+
+  .bottom-footer__wrapper {
+    background: #100601;
+    padding: 20px 0;
+
+    .social-icon__wrapper {
+      a {
+        margin-right: 15px;
+      };
+    };
+  };
+};

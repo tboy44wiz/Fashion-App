@@ -1,0 +1,31 @@
+@import "../../../assets/styles/GlobalVariables";
+
+.AppHeaderComp {
+  background: #100601;
+  padding: 0 5%;
+
+  .brand__name {
+    margin-top: 10px;
+    font-family: 'P22 Marcel W01 Script Pro', sans-serif;
+    font-weight: 600;
+    a {
+      font-size: 3rem;
+    }
+  }
+
+  a {
+    //font-weight: 600;
+    color: $linkColor !important;
+
+    &:hover {
+      color: $linkColorHover !important;
+    }
+    &.active {
+      color: $colorOrange !important;
+    }
+    &.active:hover {
+      color: $linkColorHover !important;
+    }
+  }
+};
+

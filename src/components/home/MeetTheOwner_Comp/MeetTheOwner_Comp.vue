@@ -4,7 +4,7 @@
       <div class="MeetTheOwner_Comp__wrapper">
         <div class="container">
           <div class="row">
-            <div class="col-lg-7 bg-secondary">
+            <div class="col-lg-7 p-0">
               <div class="owner-image__wrapper">
                 <img :src="ownerImage" class=" owner__image" alt="Owner Image">
               </div>

@@ -43,9 +43,13 @@
   .owner-image__wrapper {
     height: $fullHeight;
     width: $fullWidth;
+    background: #100601;
+    z-index: 100;
 
     display: flex;
     justify-content: center;
+
+    position: relative;
 
     .owner__image {
       height: 800px;

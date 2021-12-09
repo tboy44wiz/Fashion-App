@@ -60,10 +60,11 @@
     methods: {
       scrollHandle() {
         let backgroundImage = document.querySelector(".background__image");
-        let ownerInfo = document.querySelector(".owner__info");
+        let hhh = docume;
         const scrollValue = window.scrollY;
         const screenInnerHeight = window.innerHeight;
         const screenInnerWidth = window.innerWidth;
+        console.log(backgroundImage);
 
         if(scrollValue >= screenInnerHeight && screenInnerWidth >= 992) {
           backgroundImage.style.top = `${(scrollValue - (screenInnerHeight * 2)) * 0.5}px`;
